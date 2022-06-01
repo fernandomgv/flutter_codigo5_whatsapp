@@ -23,9 +23,15 @@ class _ChatDetailPageState extends State<ChatDetailPage> {
           children: [
             CircleAvatar(
               backgroundColor: Colors.black12,
-              backgroundImage: NetworkImage(
+              backgroundImage:
+              AssetImage('assets/images/fmogollon.jpg'),
+              /*NetworkImage(
+
                   "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"),
-            ),
+
+               */
+            )
+            ,
             const SizedBox(
               width: 8.0,
             ),
@@ -34,7 +40,7 @@ class _ChatDetailPageState extends State<ChatDetailPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Ximena Lopez",
+                    "Fernando Mogollón vite",
                     style: TextStyle(fontSize: 18.0),
                   ),
                   SizedBox(
