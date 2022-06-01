@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_codigo5_whatsapp/pages/status_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'call_page.dart';
@@ -83,7 +84,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           children: [
             Center(child: Text("Pagina 1")),
             ChatPage(),
-            Center(child: Text("Pagina 3")),
+            StatusPage(),
       CallPage(),
           ],
         ),
