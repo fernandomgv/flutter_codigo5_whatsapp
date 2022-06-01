@@ -15,12 +15,10 @@ class CallPage extends StatelessWidget {
               leading: CircleAvatar(
                 backgroundColor: Colors.black12,
                 radius: 26,
-                backgroundImage: NetworkImage(
-                  "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-                ),
+                backgroundImage: AssetImage('assets/images/fmogollon.jpg'),
               ),
               title: Text(
-                "Daniela Farfán Lopez",
+                "Fernando Mogollón Vite",
                 style: TextStyle(
                   fontSize: 14.0,
                   fontWeight: FontWeight.w500,
